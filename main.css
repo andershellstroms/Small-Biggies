@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'CubanoRegular';
+    src: url('cubano-regular-webfont.eot');
+    src: url('cubano-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cubano-regular-webfont.woff') format('woff'),
+         url('cubano-regular-webfont.ttf') format('truetype'),
+         url('cubano-regular-webfont.svg#CubanoRegular') format('svg');
+    font-weight: normal;
+    color: #fff;
+    font-style: normal; }
+
+
+html, body { width: 100%; height: 100%; font-family: 'CubanoRegular'; font-size:10px;}
+
+iframe { position: absolute; top: 0px; left: 0px; }
+
+#reload { position:absolute; float: right; right:50px; top:55px; width: 17px; height: 17px; }
+
+#reload:hover {cursor: pointer; opacity: 0.8;}
+
+h1 {font-family:'CubanoRegular'; color: #fff; size: 12px;}
+
+#share { position:absolute; float:left; left:120px; bottom:15px; width: 200px; height: 40px;  text-align: left; }
+#share:hover {opacity:0.5; cursor:pointer;}
+
+.social { position:absolute; float:right; right:50px; text-align:right;  bottom:50px; width: auto; height: 20px; }
+
+#facebook { color:#dfe3ee; }
+#facebook:hover {color:#3b5998; cursor:pointer;}
+
+#twitter { color:#dfe3ee; }
+#twitter:hover {color:#4099FF; cursor:pointer;}
+
+#face { position: fixed; left:50px; bottom:-1px; }
+
+.large { font-size:20px; position: absolute; float:left; left:50px; font-family:'CubanoRegular'; color: #fff; z-index:-10; top:50%;}
